@@ -315,7 +315,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Page-1" id="ntQ62IaHbMZkLm3NOPZf">
-    <mxGraphModel dx="2066" dy="1184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2296" dy="1316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LsxD3RSSWoE8L10Ibqpd-0" />
         <mxCell id="LsxD3RSSWoE8L10Ibqpd-1" parent="LsxD3RSSWoE8L10Ibqpd-0" />
@@ -413,7 +413,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LsxD3RSSWoE8L10Ibqpd-21" parent="LsxD3RSSWoE8L10Ibqpd-11" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" value="" vertex="1">
-          <mxGeometry height="50" width="50" x="574" y="-25" as="geometry" />
+          <mxGeometry height="50" width="50" x="520" y="-25" as="geometry" />
         </mxCell>
         <mxCell id="LsxD3RSSWoE8L10Ibqpd-22" edge="1" parent="LsxD3RSSWoE8L10Ibqpd-11" source="LsxD3RSSWoE8L10Ibqpd-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" target="LsxD3RSSWoE8L10Ibqpd-67">
           <mxGeometry relative="1" as="geometry" />
@@ -614,7 +614,7 @@
           <mxGeometry height="78" width="78" x="1320" y="790" as="geometry" />
         </mxCell>
         <mxCell id="y6YCs9OVPgaIiUDx5xWQ-3" parent="LsxD3RSSWoE8L10Ibqpd-0" value="Lake formation" />
-        <mxCell id="y6YCs9OVPgaIiUDx5xWQ-2" edge="1" parent="y6YCs9OVPgaIiUDx5xWQ-3" source="y6YCs9OVPgaIiUDx5xWQ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" target="LsxD3RSSWoE8L10Ibqpd-32">
+        <mxCell id="y6YCs9OVPgaIiUDx5xWQ-2" edge="1" parent="y6YCs9OVPgaIiUDx5xWQ-3" source="y6YCs9OVPgaIiUDx5xWQ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" target="LsxD3RSSWoE8L10Ibqpd-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y6YCs9OVPgaIiUDx5xWQ-0" parent="y6YCs9OVPgaIiUDx5xWQ-3" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lake_formation;" value="" vertex="1">
