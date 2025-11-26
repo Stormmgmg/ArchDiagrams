@@ -315,7 +315,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Page-1" id="ntQ62IaHbMZkLm3NOPZf">
-    <mxGraphModel dx="2066" dy="1184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1968" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LsxD3RSSWoE8L10Ibqpd-0" />
         <mxCell id="LsxD3RSSWoE8L10Ibqpd-1" parent="LsxD3RSSWoE8L10Ibqpd-0" />
@@ -469,6 +469,9 @@
         <mxCell id="BCEUQoEYkQ7RSv4jQfuH-9" edge="1" parent="LsxD3RSSWoE8L10Ibqpd-11" source="BCEUQoEYkQ7RSv4jQfuH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="BCEUQoEYkQ7RSv4jQfuH-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="BCEUQoEYkQ7RSv4jQfuH-13" parent="LsxD3RSSWoE8L10Ibqpd-11" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="565" y="445" as="geometry" />
+        </mxCell>
         <mxCell id="LsxD3RSSWoE8L10Ibqpd-33" parent="LsxD3RSSWoE8L10Ibqpd-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,transparent);strokeColor=light-dark(#000000,#999999);" value="" vertex="1">
           <mxGeometry height="1090" width="120" x="1550" y="530" as="geometry" />
         </mxCell>
@@ -569,6 +572,12 @@
         <mxCell id="BCEUQoEYkQ7RSv4jQfuH-12" parent="LsxD3RSSWoE8L10Ibqpd-0" value="ClickStreamBucket" />
         <mxCell id="LsxD3RSSWoE8L10Ibqpd-32" parent="BCEUQoEYkQ7RSv4jQfuH-12" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" value="ClickStream&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="78" width="78" x="1260" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="BCEUQoEYkQ7RSv4jQfuH-15" edge="1" parent="BCEUQoEYkQ7RSv4jQfuH-12" source="LsxD3RSSWoE8L10Ibqpd-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="BCEUQoEYkQ7RSv4jQfuH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCEUQoEYkQ7RSv4jQfuH-16" edge="1" parent="BCEUQoEYkQ7RSv4jQfuH-12" source="BCEUQoEYkQ7RSv4jQfuH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="LsxD3RSSWoE8L10Ibqpd-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BCEUQoEYkQ7RSv4jQfuH-10" parent="LsxD3RSSWoE8L10Ibqpd-0" value="Macie+Lambda" />
         <mxCell id="BCEUQoEYkQ7RSv4jQfuH-2" parent="BCEUQoEYkQ7RSv4jQfuH-10" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.macie;" value="" vertex="1">
