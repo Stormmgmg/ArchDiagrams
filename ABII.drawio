@@ -342,7 +342,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Good" id="_iAchKshfizR52N9A1ig">
-    <mxGraphModel dx="-736" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="929" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="HbcK1GcY6NcjTLmPOZsa-0" />
         <mxCell id="HbcK1GcY6NcjTLmPOZsa-1" parent="HbcK1GcY6NcjTLmPOZsa-0" value="VPC" />
@@ -623,7 +623,7 @@
         <mxCell id="HbcK1GcY6NcjTLmPOZsa-5" parent="-35yTtpl-Tt7zUcpLtmj-14" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=1;" value="Availability zone" vertex="1">
           <mxGeometry height="780" width="427" x="3763" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="79wWKbvK08X2f1ttnIkx-8" parent="HbcK1GcY6NcjTLmPOZsa-0" value="Unstructured Data --&gt; Redshift" visible="0" />
+        <mxCell id="79wWKbvK08X2f1ttnIkx-8" parent="HbcK1GcY6NcjTLmPOZsa-0" value="Unstructured Data --&gt; Redshift" />
         <mxCell id="-35yTtpl-Tt7zUcpLtmj-11" parent="79wWKbvK08X2f1ttnIkx-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" value="&lt;b&gt;Loading Stationary Data into RedShift&lt;/b&gt;" vertex="1">
           <mxGeometry height="140" width="793" x="3723" y="1050" as="geometry" />
         </mxCell>
@@ -652,7 +652,7 @@
         <mxCell id="-35yTtpl-Tt7zUcpLtmj-7" parent="79wWKbvK08X2f1ttnIkx-8" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glue;" value="ETL Job" vertex="1">
           <mxGeometry height="78" width="78" x="4410" y="1076" as="geometry" />
         </mxCell>
-        <mxCell id="79wWKbvK08X2f1ttnIkx-9" parent="HbcK1GcY6NcjTLmPOZsa-0" value="Unfrequent Reads from stationary data" visible="0" />
+        <mxCell id="79wWKbvK08X2f1ttnIkx-9" parent="HbcK1GcY6NcjTLmPOZsa-0" value="Unfrequent Reads from stationary data" />
         <mxCell id="-35yTtpl-Tt7zUcpLtmj-12" parent="79wWKbvK08X2f1ttnIkx-9" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Unfrequent Reads from stationary data (Redshift Spectrum)&lt;/b&gt;" vertex="1">
           <mxGeometry height="140" width="786" x="3724" y="1223" as="geometry" />
         </mxCell>
