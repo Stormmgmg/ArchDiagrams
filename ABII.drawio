@@ -400,7 +400,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="HAWA" id="6rl7r52LlfANdHaGLkL3">
-    <mxGraphModel dx="-385" dy="885" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="696" dy="1316" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DsEBJ2APfMefq9yF6xif-0" />
         <mxCell id="kQnaYgEjbQ5bGNe4cmH3-35" parent="DsEBJ2APfMefq9yF6xif-0" value="REGION+CLOD" />
@@ -562,7 +562,7 @@
         <mxCell id="kQnaYgEjbQ5bGNe4cmH3-18" parent="DsEBJ2APfMefq9yF6xif-7" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#00A4A6;fillColor=#E6F6F7;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" value="Private subnet" vertex="1">
           <mxGeometry height="170" width="300" x="4173" y="568" as="geometry" />
         </mxCell>
-        <mxCell id="kQnaYgEjbQ5bGNe4cmH3-14" parent="DsEBJ2APfMefq9yF6xif-7" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=1;" value="Availability zone 1" vertex="1">
+        <mxCell id="kQnaYgEjbQ5bGNe4cmH3-14" parent="DsEBJ2APfMefq9yF6xif-7" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=1;" value="Availability zone 2" vertex="1">
           <mxGeometry height="1011" width="380" x="4133" y="268" as="geometry" />
         </mxCell>
         <mxCell id="kQnaYgEjbQ5bGNe4cmH3-15" parent="DsEBJ2APfMefq9yF6xif-7" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#00A4A6;fillColor=#E6F6F7;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" value="Private subnet" vertex="1">
