@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="Page-1" id="UG3QI0yOAABmyP_pfVqR">
-    <mxGraphModel dx="2305" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1215" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Load into queue" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-4" edge="1" parent="1" source="OF5CMkvbfLc-Oy3EqBxY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OF5CMkvbfLc-Oy3EqBxY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-5" connectable="0" parent="OF5CMkvbfLc-Oy3EqBxY-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1816" y="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-7" edge="1" parent="1" source="OF5CMkvbfLc-Oy3EqBxY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="OF5CMkvbfLc-Oy3EqBxY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-8" connectable="0" parent="OF5CMkvbfLc-Oy3EqBxY-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.061" y="-3" as="geometry">
+            <mxPoint x="-10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Analysed for readiness&amp;nbsp;&lt;div&gt;(Submitted)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-11" edge="1" parent="1" source="OF5CMkvbfLc-Oy3EqBxY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OF5CMkvbfLc-Oy3EqBxY-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Runnable state&lt;div&gt;(waiting for capacity)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-12" edge="1" parent="1" source="OF5CMkvbfLc-Oy3EqBxY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OF5CMkvbfLc-Oy3EqBxY-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="630" />
+              <mxPoint x="180" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Pending state" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-14" edge="1" parent="1" source="OF5CMkvbfLc-Oy3EqBxY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OF5CMkvbfLc-Oy3EqBxY-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Load EC2 instance" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-17" edge="1" parent="1" source="OF5CMkvbfLc-Oy3EqBxY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OF5CMkvbfLc-Oy3EqBxY-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Pull Container&amp;nbsp;&lt;div&gt;(starting)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="OF5CMkvbfLc-Oy3EqBxY-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Run job&lt;div&gt;(Running)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="870" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
