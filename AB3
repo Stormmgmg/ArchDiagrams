@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0" pages="2">
   <diagram name="Migration" id="rDzdfsuCQ9imT5IAgb6p">
-    <mxGraphModel dx="2066" dy="1184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1901" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,10 +72,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FoHtAiCOz0nNAOhyZDgb-2" edge="1" parent="t1d4LYcVj0b1VJaKv69c-14" source="t1d4LYcVj0b1VJaKv69c-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FoHtAiCOz0nNAOhyZDgb-1">
+        <mxCell id="FoHtAiCOz0nNAOhyZDgb-2" edge="1" parent="t1d4LYcVj0b1VJaKv69c-14" source="FoHtAiCOz0nNAOhyZDgb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t1d4LYcVj0b1VJaKv69c-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FoHtAiCOz0nNAOhyZDgb-4" parent="0" value="DMS+MGN" visible="0" />
+        <mxCell id="FoHtAiCOz0nNAOhyZDgb-4" parent="0" value="DMS+MGN" />
         <mxCell id="t1d4LYcVj0b1VJaKv69c-38" parent="FoHtAiCOz0nNAOhyZDgb-4" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudendure_migration;" value="&lt;b&gt;Application Migration&lt;/b&gt;&lt;div&gt;&lt;b&gt;Service&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="78" width="78" x="865" y="734" as="geometry" />
         </mxCell>
@@ -85,14 +85,14 @@
         <mxCell id="t1d4LYcVj0b1VJaKv69c-20" parent="FoHtAiCOz0nNAOhyZDgb-4" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" value="&lt;b&gt;EC2&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Replication Instance&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="78" width="78" x="1226" y="729" as="geometry" />
         </mxCell>
-        <mxCell id="FoHtAiCOz0nNAOhyZDgb-5" parent="0" value="Web APP + RDS " visible="0" />
+        <mxCell id="FoHtAiCOz0nNAOhyZDgb-5" parent="0" value="Web APP + RDS " />
         <mxCell id="t1d4LYcVj0b1VJaKv69c-32" parent="FoHtAiCOz0nNAOhyZDgb-5" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" value="&lt;div&gt;&lt;b&gt;EC2&lt;/b&gt;&lt;/div&gt;&lt;b&gt;Web Application&lt;/b&gt;" vertex="1">
           <mxGeometry height="78" width="78" x="1227" y="931" as="geometry" />
         </mxCell>
         <mxCell id="t1d4LYcVj0b1VJaKv69c-19" parent="FoHtAiCOz0nNAOhyZDgb-5" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" value="&lt;b&gt;RDS&lt;/b&gt;" vertex="1">
           <mxGeometry height="78" width="78" x="1230" y="1125" as="geometry" />
         </mxCell>
-        <mxCell id="FoHtAiCOz0nNAOhyZDgb-6" parent="0" value="ALB + CF" visible="0" />
+        <mxCell id="FoHtAiCOz0nNAOhyZDgb-6" parent="0" value="ALB + CF" />
         <mxCell id="t1d4LYcVj0b1VJaKv69c-33" parent="FoHtAiCOz0nNAOhyZDgb-6" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" value="&lt;b&gt;Application Load&lt;/b&gt;&lt;div&gt;&lt;b&gt;Balancer&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="78" width="78" x="1487" y="733" as="geometry" />
         </mxCell>
