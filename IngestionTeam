@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="4WB9yypiHtkY7KFXtwD-">
+    <mxGraphModel dx="1901" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-4" edge="1" parent="1" source="F59UJoaHPK7yoACDE35A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="F59UJoaHPK7yoACDE35A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F59UJoaHPK7yoACDE35A-1" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.kinesis_data_firehose;" value="&lt;b&gt;Firehose + Lambda:&lt;/b&gt;&lt;br&gt;Normalises data +&lt;div&gt;stores in correct place&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="78" x="402" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="F59UJoaHPK7yoACDE35A-2" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" value="&lt;b&gt;Ingestion Bucket&lt;/b&gt;" vertex="1">
+          <mxGeometry height="78" width="78" x="600" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-3" edge="1" parent="1" source="F59UJoaHPK7yoACDE35A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="F59UJoaHPK7yoACDE35A-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F59UJoaHPK7yoACDE35A-6" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" value="&lt;b&gt;EventBridge&lt;/b&gt;" vertex="1">
+          <mxGeometry height="78" width="78" x="200" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="F59UJoaHPK7yoACDE35A-7" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.security_hub;" value="&lt;b&gt;Sec Hub&lt;/b&gt;" vertex="1">
+          <mxGeometry height="78" width="78" x="200" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="F59UJoaHPK7yoACDE35A-8" edge="1" parent="1" source="F59UJoaHPK7yoACDE35A-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="F59UJoaHPK7yoACDE35A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-1" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudwatch_2;" value="&lt;b&gt;CloudWatch&lt;/b&gt;" vertex="1">
+          <mxGeometry height="78" width="78" x="20" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-2" edge="1" parent="1" source="qpSrLWo70UL2RsnNG5gB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="F59UJoaHPK7yoACDE35A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-8" edge="1" parent="1" source="qpSrLWo70UL2RsnNG5gB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="qpSrLWo70UL2RsnNG5gB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-20" edge="1" parent="1" source="qpSrLWo70UL2RsnNG5gB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="qpSrLWo70UL2RsnNG5gB-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="846" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-5" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.bedrock_agentcore;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;Invocation Agent:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Looks for new data in the bucket,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;if there is, makes a compilation of the issues.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;If issues are related stores as 1 issue, then&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;decides what agents to invoke. When invoking&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;agents for 1 issue, will only put what he (they/them?) thinks&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;the most relevant data is into the data buffer bucket, but&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;also offers the extra connectors to the PAs to choose from.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;Also has access to the AWS MCP to pull AD-hoc data when&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;PAs require it (e.g. CloudWatch metric for specific hour)&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="78" x="827" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-6" edge="1" parent="1" source="qpSrLWo70UL2RsnNG5gB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="F59UJoaHPK7yoACDE35A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-7" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" value="&lt;b&gt;Data Buffer bucket&lt;/b&gt;" vertex="1">
+          <mxGeometry height="78" width="78" x="1090" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-19" edge="1" parent="1" source="qpSrLWo70UL2RsnNG5gB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="qpSrLWo70UL2RsnNG5gB-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-9" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.bedrock_agentcore;" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Ingestion Agent:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Sets up connections&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="78" x="402" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-11" edge="1" parent="1" source="qpSrLWo70UL2RsnNG5gB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="F59UJoaHPK7yoACDE35A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-16" edge="1" parent="1" source="qpSrLWo70UL2RsnNG5gB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="qpSrLWo70UL2RsnNG5gB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-12" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" value="&lt;div&gt;&lt;b&gt;SelfEvolving-InvocationAgentInvoke-dev&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;Technically u invoke the invocation&lt;/div&gt;&lt;div&gt;agent with a lambda, which once the agent&lt;/div&gt;&lt;div&gt;is done will look at all the issues identified&lt;/div&gt;&lt;div&gt;and invokes the consensus protocol&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="78" x="1090" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-13" edge="1" parent="1" source="qpSrLWo70UL2RsnNG5gB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="qpSrLWo70UL2RsnNG5gB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-17" edge="1" parent="1" source="qpSrLWo70UL2RsnNG5gB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="qpSrLWo70UL2RsnNG5gB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-15" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.step_functions;" value="&lt;b&gt;Consensus protocol:&lt;/b&gt;&lt;div&gt;Edited the how the protocol gets invoked,&lt;/div&gt;&lt;div&gt;now the initial message of the invocation&lt;/div&gt;&lt;div&gt;agent is passed on to the PAs, the PAs, now&lt;/div&gt;&lt;div&gt;analyse if its enough information and if it isnt&amp;nbsp;&lt;/div&gt;&lt;div&gt;request for more information. They request&amp;nbsp;&lt;/div&gt;&lt;div&gt;information with a tool that they now have.&amp;nbsp;&lt;/div&gt;&lt;div&gt;This all happens within the agent runtime,&lt;/div&gt;&lt;div&gt;so no other agents are aware of this is happening,&lt;/div&gt;&lt;div&gt;but its logged in the chat for visibility of the&amp;nbsp;&lt;/div&gt;&lt;div&gt;customer and to actually show Paul what this does.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="78" x="1340" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-18" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloud_2;fillColor=#F58534;gradientColor=none;" value="&lt;b&gt;AWS MCP&lt;/b&gt;" vertex="1">
+          <mxGeometry height="78" width="75" x="603" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-22" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.connectors" value="&lt;b&gt;External MCP&lt;/b&gt;&lt;div&gt;(didnt know what icon&amp;nbsp;&lt;/div&gt;&lt;div&gt;to use)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="79.41" x="400.59" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qpSrLWo70UL2RsnNG5gB-23" edge="1" parent="1" source="qpSrLWo70UL2RsnNG5gB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="qpSrLWo70UL2RsnNG5gB-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
